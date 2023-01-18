@@ -14,8 +14,8 @@ export function CardVideo(props) {
 
   return(
     <div className="box-pagina-principal" onClick={reproduzVideo}>
-        <img src={props.imagem} alt="" />
-        <h4>{props.titulo}</h4>
+        <img src={props.informacoes.imagem} alt="" />
+        <h4>{props.informacoes.titulo}</h4>
         <InfosUsuario name={nomeUsuario} image={userImage}/>
       </div>
   )

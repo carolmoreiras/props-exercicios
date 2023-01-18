@@ -30,35 +30,30 @@ export default function App() {
           </nav>
 
           <section className="painel-de-videos">
-            <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+          <CardVideo 
+             informacoes={informacoes}
             />
             <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+             informacoes={informacoes}
             />
             <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+             informacoes={informacoes}
             />
-            <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+           <CardVideo 
+             informacoes={informacoes}
             />
-            <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+           <CardVideo 
+             informacoes={informacoes}
             />
-            <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+          <CardVideo 
+             informacoes={informacoes}
             />
-            <CardVideo 
-              imagem={informacoes.imagem} 
-              titulo={informacoes.titulo}
+           <CardVideo 
+             informacoes={informacoes}
             />
-          
+             <CardVideo 
+             informacoes={informacoes}
+            />
           </section>
         </main>
 
